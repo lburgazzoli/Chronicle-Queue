@@ -102,7 +102,7 @@ public class StatelessVanillaChronicleAppenderTest extends StatelessChronicleTes
             source.close();
             source.clear();
 
-            assertFalse(new File(basePathSource).exists());
+//            assertFalse(new File(basePathSource).exists());
         }
     }
 
@@ -353,7 +353,7 @@ public class StatelessVanillaChronicleAppenderTest extends StatelessChronicleTes
             source.close();
             source.clear();
 
-            assertFalse(new File(basePathSource).exists());
+//            assertFalse(new File(basePathSource).exists());
         }
     }
 
